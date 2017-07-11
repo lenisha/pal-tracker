@@ -4,3 +4,5 @@ applications:
   path: ../../build/libs/pal-tracker.jar
   host: ps-pal-tracker-en-review
   buildpack: java_buildpack_offline
+  env:
+    MANAGEMENT_SECURITY_ENABLED: false
