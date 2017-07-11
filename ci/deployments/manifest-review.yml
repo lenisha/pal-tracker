@@ -6,3 +6,4 @@ applications:
   buildpack: java_buildpack_offline
   env:
     MANAGEMENT_SECURITY_ENABLED: false
+    SECURITY_FORCE_HTTPS: true
